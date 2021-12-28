@@ -1,4 +1,5 @@
 const express = require("express"); //importing express
+const config = require("dotenv").config();
 const app = express(); //creating an express application
 const port = 5000; //define a port
 const cors = require("cors");
